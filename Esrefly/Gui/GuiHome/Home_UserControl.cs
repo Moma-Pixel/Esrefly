@@ -8,16 +8,16 @@ using System.Windows.Forms;
 
 namespace Esrefly.Gui.GuiHome
 {
-    public partial class Home_UserContro : UserControl
+    public partial class Home_UserControl : UserControl
     {
-        private static Home_UserContro _Home_UserContro;
-        public Home_UserContro()
+        private static Home_UserControl _Home_UserContro;
+        public Home_UserControl()
         {
             InitializeComponent();
         }
-        public static Home_UserContro Instance()
+        public static Home_UserControl Instance()
         {
-            return _Home_UserContro ??(new Home_UserContro());
+            return _Home_UserContro ??(new Home_UserControl());
         }
     }
 }

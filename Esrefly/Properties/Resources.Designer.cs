@@ -61,6 +61,24 @@ namespace Esrefly.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to لايوجد بيانات.
+        /// </summary>
+        public static string EmptyMessageCaption {
+            get {
+                return ResourceManager.GetString("EmptyMessageCaption", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to شبكة عرض البيانات فارغ,لا يمكن تنفيذ الإجراء.
+        /// </summary>
+        public static string EmptyMessageText {
+            get {
+                return ResourceManager.GetString("EmptyMessageText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
         public static System.Drawing.Bitmap icons8_business_group_32 {
@@ -136,6 +154,26 @@ namespace Esrefly.Properties {
         public static System.Drawing.Bitmap icons8_Logout_32 {
             get {
                 object obj = ResourceManager.GetObject("icons8_Logout_32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap icons8_save_all_48 {
+            get {
+                object obj = ResourceManager.GetObject("icons8_save_all_48", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap icons8_save_as_48 {
+            get {
+                object obj = ResourceManager.GetObject("icons8_save_as_48", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

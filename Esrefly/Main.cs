@@ -20,12 +20,12 @@ namespace Esrefly
             InitializeComponent();
             clsPageManager = new ClsPageManager(this);
             //Load HomePage
-            clsPageManager.LoadPage(Gui.GuiHome.Home_UserContro.Instance());
+            clsPageManager.LoadPage(Gui.GuiHome.Home_UserControl.Instance());
         }
         #region
         private void btnMain_Click(object sender, EventArgs e)
         {
-            clsPageManager.LoadPage( Gui.GuiHome.Home_UserContro.Instance());
+            clsPageManager.LoadPage( Gui.GuiHome.Home_UserControl.Instance());
         }
         #endregion
     }

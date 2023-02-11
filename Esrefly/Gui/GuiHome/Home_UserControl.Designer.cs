@@ -1,7 +1,7 @@
 ﻿
 namespace Esrefly.Gui.GuiHome
 {
-    partial class Home_UserContro
+    partial class Home_UserControl
     {
         /// <summary> 
         /// Required designer variable.
@@ -29,7 +29,7 @@ namespace Esrefly.Gui.GuiHome
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Home_UserContro));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Home_UserControl));
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -54,11 +54,12 @@ namespace Esrefly.Gui.GuiHome
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.SteelBlue;
+            this.panel1.BackColor = System.Drawing.Color.Plum;
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Controls.Add(this.panel3);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel1.ForeColor = System.Drawing.Color.SlateBlue;
             this.panel1.Location = new System.Drawing.Point(0, 504);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1251, 152);
@@ -68,7 +69,7 @@ namespace Esrefly.Gui.GuiHome
             // 
             this.label1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label1.Font = new System.Drawing.Font("LBC", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label1.ForeColor = System.Drawing.Color.SlateBlue;
             this.label1.Location = new System.Drawing.Point(578, 8);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(183, 46);
@@ -97,6 +98,7 @@ namespace Esrefly.Gui.GuiHome
             this.panel3.Controls.Add(this.btnRecipOrd);
             this.panel3.Controls.Add(this.btnAddUser);
             this.panel3.Controls.Add(this.btnAddCat);
+            this.panel3.ForeColor = System.Drawing.Color.SlateBlue;
             this.panel3.Location = new System.Drawing.Point(31, 57);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(1181, 80);
@@ -105,13 +107,13 @@ namespace Esrefly.Gui.GuiHome
             // btnAddCust
             // 
             this.btnAddCust.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnAddCust.BackColor = System.Drawing.Color.CornflowerBlue;
-            this.btnAddCust.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.btnAddCust.FlatAppearance.BorderSize = 0;
+            this.btnAddCust.BackColor = System.Drawing.Color.White;
+            this.btnAddCust.FlatAppearance.BorderColor = System.Drawing.Color.SlateBlue;
+            this.btnAddCust.FlatAppearance.BorderSize = 2;
             this.btnAddCust.FlatAppearance.CheckedBackColor = System.Drawing.Color.LightSkyBlue;
             this.btnAddCust.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAddCust.Font = new System.Drawing.Font("LBC", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnAddCust.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnAddCust.ForeColor = System.Drawing.Color.SlateBlue;
             this.btnAddCust.Image = ((System.Drawing.Image)(resources.GetObject("btnAddCust.Image")));
             this.btnAddCust.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnAddCust.Location = new System.Drawing.Point(861, 10);
@@ -126,13 +128,13 @@ namespace Esrefly.Gui.GuiHome
             // btnAddSupp
             // 
             this.btnAddSupp.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnAddSupp.BackColor = System.Drawing.Color.CornflowerBlue;
-            this.btnAddSupp.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.btnAddSupp.FlatAppearance.BorderSize = 0;
+            this.btnAddSupp.BackColor = System.Drawing.Color.White;
+            this.btnAddSupp.FlatAppearance.BorderColor = System.Drawing.Color.SlateBlue;
+            this.btnAddSupp.FlatAppearance.BorderSize = 2;
             this.btnAddSupp.FlatAppearance.CheckedBackColor = System.Drawing.Color.LightSkyBlue;
             this.btnAddSupp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAddSupp.Font = new System.Drawing.Font("LBC", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnAddSupp.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnAddSupp.ForeColor = System.Drawing.Color.SlateBlue;
             this.btnAddSupp.Image = ((System.Drawing.Image)(resources.GetObject("btnAddSupp.Image")));
             this.btnAddSupp.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnAddSupp.Location = new System.Drawing.Point(696, 10);
@@ -147,13 +149,13 @@ namespace Esrefly.Gui.GuiHome
             // btnAddProj
             // 
             this.btnAddProj.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnAddProj.BackColor = System.Drawing.Color.CornflowerBlue;
-            this.btnAddProj.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.btnAddProj.FlatAppearance.BorderSize = 0;
+            this.btnAddProj.BackColor = System.Drawing.Color.White;
+            this.btnAddProj.FlatAppearance.BorderColor = System.Drawing.Color.SlateBlue;
+            this.btnAddProj.FlatAppearance.BorderSize = 2;
             this.btnAddProj.FlatAppearance.CheckedBackColor = System.Drawing.Color.LightSkyBlue;
             this.btnAddProj.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAddProj.Font = new System.Drawing.Font("LBC", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnAddProj.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnAddProj.ForeColor = System.Drawing.Color.SlateBlue;
             this.btnAddProj.Image = ((System.Drawing.Image)(resources.GetObject("btnAddProj.Image")));
             this.btnAddProj.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnAddProj.Location = new System.Drawing.Point(531, 10);
@@ -168,13 +170,13 @@ namespace Esrefly.Gui.GuiHome
             // btnPayOrd
             // 
             this.btnPayOrd.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnPayOrd.BackColor = System.Drawing.Color.CornflowerBlue;
-            this.btnPayOrd.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.btnPayOrd.FlatAppearance.BorderSize = 0;
+            this.btnPayOrd.BackColor = System.Drawing.Color.White;
+            this.btnPayOrd.FlatAppearance.BorderColor = System.Drawing.Color.SlateBlue;
+            this.btnPayOrd.FlatAppearance.BorderSize = 2;
             this.btnPayOrd.FlatAppearance.CheckedBackColor = System.Drawing.Color.LightSkyBlue;
             this.btnPayOrd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnPayOrd.Font = new System.Drawing.Font("LBC", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnPayOrd.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnPayOrd.ForeColor = System.Drawing.Color.SlateBlue;
             this.btnPayOrd.Image = ((System.Drawing.Image)(resources.GetObject("btnPayOrd.Image")));
             this.btnPayOrd.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnPayOrd.Location = new System.Drawing.Point(14, 10);
@@ -189,13 +191,13 @@ namespace Esrefly.Gui.GuiHome
             // btnRecipOrd
             // 
             this.btnRecipOrd.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnRecipOrd.BackColor = System.Drawing.Color.CornflowerBlue;
-            this.btnRecipOrd.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.btnRecipOrd.FlatAppearance.BorderSize = 0;
+            this.btnRecipOrd.BackColor = System.Drawing.Color.White;
+            this.btnRecipOrd.FlatAppearance.BorderColor = System.Drawing.Color.SlateBlue;
+            this.btnRecipOrd.FlatAppearance.BorderSize = 2;
             this.btnRecipOrd.FlatAppearance.CheckedBackColor = System.Drawing.Color.LightSkyBlue;
             this.btnRecipOrd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnRecipOrd.Font = new System.Drawing.Font("LBC", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnRecipOrd.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnRecipOrd.ForeColor = System.Drawing.Color.SlateBlue;
             this.btnRecipOrd.Image = ((System.Drawing.Image)(resources.GetObject("btnRecipOrd.Image")));
             this.btnRecipOrd.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnRecipOrd.Location = new System.Drawing.Point(179, 10);
@@ -210,13 +212,13 @@ namespace Esrefly.Gui.GuiHome
             // btnAddUser
             // 
             this.btnAddUser.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnAddUser.BackColor = System.Drawing.Color.CornflowerBlue;
-            this.btnAddUser.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.btnAddUser.FlatAppearance.BorderSize = 0;
+            this.btnAddUser.BackColor = System.Drawing.Color.White;
+            this.btnAddUser.FlatAppearance.BorderColor = System.Drawing.Color.SlateBlue;
+            this.btnAddUser.FlatAppearance.BorderSize = 2;
             this.btnAddUser.FlatAppearance.CheckedBackColor = System.Drawing.Color.LightSkyBlue;
             this.btnAddUser.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAddUser.Font = new System.Drawing.Font("LBC", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnAddUser.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnAddUser.ForeColor = System.Drawing.Color.SlateBlue;
             this.btnAddUser.Image = ((System.Drawing.Image)(resources.GetObject("btnAddUser.Image")));
             this.btnAddUser.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnAddUser.Location = new System.Drawing.Point(344, 10);
@@ -231,13 +233,13 @@ namespace Esrefly.Gui.GuiHome
             // btnAddCat
             // 
             this.btnAddCat.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnAddCat.BackColor = System.Drawing.Color.CornflowerBlue;
-            this.btnAddCat.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.btnAddCat.FlatAppearance.BorderSize = 0;
+            this.btnAddCat.BackColor = System.Drawing.Color.White;
+            this.btnAddCat.FlatAppearance.BorderColor = System.Drawing.Color.SlateBlue;
+            this.btnAddCat.FlatAppearance.BorderSize = 2;
             this.btnAddCat.FlatAppearance.CheckedBackColor = System.Drawing.Color.LightSkyBlue;
             this.btnAddCat.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAddCat.Font = new System.Drawing.Font("LBC", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnAddCat.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnAddCat.ForeColor = System.Drawing.Color.SlateBlue;
             this.btnAddCat.Image = ((System.Drawing.Image)(resources.GetObject("btnAddCat.Image")));
             this.btnAddCat.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnAddCat.Location = new System.Drawing.Point(1026, 10);
@@ -290,7 +292,7 @@ namespace Esrefly.Gui.GuiHome
             this.LblWelcom.Text = "الوصول السريع";
             this.LblWelcom.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // Home_UserContro
+            // Home_UserControl
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -300,7 +302,7 @@ namespace Esrefly.Gui.GuiHome
             this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("LBC", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Margin = new System.Windows.Forms.Padding(4);
-            this.Name = "Home_UserContro";
+            this.Name = "Home_UserControl";
             this.Size = new System.Drawing.Size(1251, 656);
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

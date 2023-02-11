@@ -48,6 +48,7 @@ namespace Esrefly
             // flowLayoutPanel1
             // 
             this.flowLayoutPanel1.AutoScroll = true;
+            this.flowLayoutPanel1.BackColor = System.Drawing.Color.Plum;
             this.flowLayoutPanel1.Controls.Add(this.btnMain);
             this.flowLayoutPanel1.Controls.Add(this.btnCategory);
             this.flowLayoutPanel1.Controls.Add(this.btnCustomer);
@@ -66,8 +67,12 @@ namespace Esrefly
             // 
             // btnMain
             // 
-            this.btnMain.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnMain.BackColor = System.Drawing.Color.White;
+            this.btnMain.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.btnMain.FlatAppearance.BorderSize = 2;
+            this.btnMain.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMain.Font = new System.Drawing.Font("LBC", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnMain.ForeColor = System.Drawing.Color.SlateBlue;
             this.btnMain.Image = ((System.Drawing.Image)(resources.GetObject("btnMain.Image")));
             this.btnMain.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnMain.Location = new System.Drawing.Point(1069, 10);
@@ -76,13 +81,17 @@ namespace Esrefly
             this.btnMain.Size = new System.Drawing.Size(155, 55);
             this.btnMain.TabIndex = 0;
             this.btnMain.Text = "           الرئيسة         ";
-            this.btnMain.UseVisualStyleBackColor = true;
+            this.btnMain.UseVisualStyleBackColor = false;
             this.btnMain.Click += new System.EventHandler(this.btnMain_Click);
             // 
             // btnCategory
             // 
-            this.btnCategory.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnCategory.BackColor = System.Drawing.Color.White;
+            this.btnCategory.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.btnCategory.FlatAppearance.BorderSize = 2;
+            this.btnCategory.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCategory.Font = new System.Drawing.Font("LBC", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnCategory.ForeColor = System.Drawing.Color.SlateBlue;
             this.btnCategory.Image = ((System.Drawing.Image)(resources.GetObject("btnCategory.Image")));
             this.btnCategory.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnCategory.Location = new System.Drawing.Point(894, 10);
@@ -91,12 +100,16 @@ namespace Esrefly
             this.btnCategory.Size = new System.Drawing.Size(155, 55);
             this.btnCategory.TabIndex = 1;
             this.btnCategory.Text = "           الأصناف    ";
-            this.btnCategory.UseVisualStyleBackColor = true;
+            this.btnCategory.UseVisualStyleBackColor = false;
             // 
             // btnCustomer
             // 
-            this.btnCustomer.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnCustomer.BackColor = System.Drawing.Color.White;
+            this.btnCustomer.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.btnCustomer.FlatAppearance.BorderSize = 2;
+            this.btnCustomer.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCustomer.Font = new System.Drawing.Font("LBC", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnCustomer.ForeColor = System.Drawing.Color.SlateBlue;
             this.btnCustomer.Image = ((System.Drawing.Image)(resources.GetObject("btnCustomer.Image")));
             this.btnCustomer.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnCustomer.Location = new System.Drawing.Point(719, 10);
@@ -105,12 +118,16 @@ namespace Esrefly
             this.btnCustomer.Size = new System.Drawing.Size(155, 55);
             this.btnCustomer.TabIndex = 2;
             this.btnCustomer.Text = "          العملاء  ";
-            this.btnCustomer.UseVisualStyleBackColor = true;
+            this.btnCustomer.UseVisualStyleBackColor = false;
             // 
             // btnSupplier
             // 
-            this.btnSupplier.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnSupplier.BackColor = System.Drawing.Color.White;
+            this.btnSupplier.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.btnSupplier.FlatAppearance.BorderSize = 2;
+            this.btnSupplier.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSupplier.Font = new System.Drawing.Font("LBC", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnSupplier.ForeColor = System.Drawing.Color.SlateBlue;
             this.btnSupplier.Image = global::Esrefly.Properties.Resources.icons8_supplier_48;
             this.btnSupplier.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnSupplier.Location = new System.Drawing.Point(544, 10);
@@ -119,12 +136,16 @@ namespace Esrefly
             this.btnSupplier.Size = new System.Drawing.Size(155, 55);
             this.btnSupplier.TabIndex = 3;
             this.btnSupplier.Text = "          الموردين ";
-            this.btnSupplier.UseVisualStyleBackColor = true;
+            this.btnSupplier.UseVisualStyleBackColor = false;
             // 
             // btnProject
             // 
-            this.btnProject.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnProject.BackColor = System.Drawing.Color.White;
+            this.btnProject.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.btnProject.FlatAppearance.BorderSize = 2;
+            this.btnProject.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnProject.Font = new System.Drawing.Font("LBC", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnProject.ForeColor = System.Drawing.Color.SlateBlue;
             this.btnProject.Image = ((System.Drawing.Image)(resources.GetObject("btnProject.Image")));
             this.btnProject.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnProject.Location = new System.Drawing.Point(369, 10);
@@ -133,12 +154,16 @@ namespace Esrefly
             this.btnProject.Size = new System.Drawing.Size(155, 55);
             this.btnProject.TabIndex = 4;
             this.btnProject.Text = "         المشاريع  ";
-            this.btnProject.UseVisualStyleBackColor = true;
+            this.btnProject.UseVisualStyleBackColor = false;
             // 
             // btnUsers
             // 
-            this.btnUsers.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnUsers.BackColor = System.Drawing.Color.White;
+            this.btnUsers.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.btnUsers.FlatAppearance.BorderSize = 2;
+            this.btnUsers.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnUsers.Font = new System.Drawing.Font("LBC", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnUsers.ForeColor = System.Drawing.Color.SlateBlue;
             this.btnUsers.Image = ((System.Drawing.Image)(resources.GetObject("btnUsers.Image")));
             this.btnUsers.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnUsers.Location = new System.Drawing.Point(194, 10);
@@ -148,12 +173,16 @@ namespace Esrefly
             this.btnUsers.TabIndex = 5;
             this.btnUsers.Text = "المستخدمين";
             this.btnUsers.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnUsers.UseVisualStyleBackColor = true;
+            this.btnUsers.UseVisualStyleBackColor = false;
             // 
             // btnSetting
             // 
-            this.btnSetting.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnSetting.BackColor = System.Drawing.Color.White;
+            this.btnSetting.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.btnSetting.FlatAppearance.BorderSize = 2;
+            this.btnSetting.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSetting.Font = new System.Drawing.Font("LBC", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnSetting.ForeColor = System.Drawing.Color.SlateBlue;
             this.btnSetting.Image = ((System.Drawing.Image)(resources.GetObject("btnSetting.Image")));
             this.btnSetting.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnSetting.Location = new System.Drawing.Point(19, 10);
@@ -162,12 +191,16 @@ namespace Esrefly
             this.btnSetting.Size = new System.Drawing.Size(155, 55);
             this.btnSetting.TabIndex = 6;
             this.btnSetting.Text = "        الإعدادات ";
-            this.btnSetting.UseVisualStyleBackColor = true;
+            this.btnSetting.UseVisualStyleBackColor = false;
             // 
             // btnLogout
             // 
-            this.btnLogout.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnLogout.BackColor = System.Drawing.Color.White;
+            this.btnLogout.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.btnLogout.FlatAppearance.BorderSize = 2;
+            this.btnLogout.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLogout.Font = new System.Drawing.Font("LBC", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnLogout.ForeColor = System.Drawing.Color.SlateBlue;
             this.btnLogout.Image = ((System.Drawing.Image)(resources.GetObject("btnLogout.Image")));
             this.btnLogout.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnLogout.Location = new System.Drawing.Point(1069, 85);
@@ -176,12 +209,16 @@ namespace Esrefly
             this.btnLogout.Size = new System.Drawing.Size(155, 55);
             this.btnLogout.TabIndex = 7;
             this.btnLogout.Text = "       خروج ";
-            this.btnLogout.UseVisualStyleBackColor = true;
+            this.btnLogout.UseVisualStyleBackColor = false;
             // 
             // btnHelp
             // 
-            this.btnHelp.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnHelp.BackColor = System.Drawing.Color.White;
+            this.btnHelp.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.btnHelp.FlatAppearance.BorderSize = 2;
+            this.btnHelp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnHelp.Font = new System.Drawing.Font("LBC", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnHelp.ForeColor = System.Drawing.Color.SlateBlue;
             this.btnHelp.Image = ((System.Drawing.Image)(resources.GetObject("btnHelp.Image")));
             this.btnHelp.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnHelp.Location = new System.Drawing.Point(894, 85);
@@ -190,12 +227,16 @@ namespace Esrefly
             this.btnHelp.Size = new System.Drawing.Size(155, 55);
             this.btnHelp.TabIndex = 8;
             this.btnHelp.Text = "         المساعدة ";
-            this.btnHelp.UseVisualStyleBackColor = true;
+            this.btnHelp.UseVisualStyleBackColor = false;
             // 
             // btnInfo
             // 
-            this.btnInfo.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnInfo.BackColor = System.Drawing.Color.White;
+            this.btnInfo.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.btnInfo.FlatAppearance.BorderSize = 2;
+            this.btnInfo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnInfo.Font = new System.Drawing.Font("LBC", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnInfo.ForeColor = System.Drawing.Color.SlateBlue;
             this.btnInfo.Image = ((System.Drawing.Image)(resources.GetObject("btnInfo.Image")));
             this.btnInfo.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnInfo.Location = new System.Drawing.Point(719, 85);
@@ -204,7 +245,7 @@ namespace Esrefly
             this.btnInfo.Size = new System.Drawing.Size(155, 55);
             this.btnInfo.TabIndex = 9;
             this.btnInfo.Text = "      حول ";
-            this.btnInfo.UseVisualStyleBackColor = true;
+            this.btnInfo.UseVisualStyleBackColor = false;
             // 
             // panelContainer
             // 
